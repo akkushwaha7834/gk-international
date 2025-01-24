@@ -1,0 +1,117 @@
+@media only screen and (max-width: 990px){
+    .our-team{ margin-bottom: 30px; }
+}
+
+@media (max-width:991px){
+    .pdt-infoo {
+        margin: 0 0 0 0;
+    }
+
+    .pdt-info {
+        margin: 0 0 0 0;
+    }
+    .tabs-sec-two .tabs-content-two>.tab-pane {
+        display: block !important;
+        opacity: 1 !important;
+    }
+        .tabs-content-two {
+        padding: 12px 0px;
+    }
+        .tab-btns {
+        display: none;
+    }
+    .tabs-sec-two {
+        background: var(--theme-secondary);
+        padding: 20px;
+    }
+    .tabs-box:before{
+        background: var(--theme-secondary);
+    }
+        .tabs-content-two .accordion-item {
+        margin-bottom: 1.5rem;
+    }
+    .pad-left{
+        padding-left: 10px;
+    }
+    .manu-images{
+        width: 100%;
+    }
+    .tabs-sec-two button{
+        text-align: left;
+        font-size: 20px;
+        border-radius: 13px 13px 13px 13px !important;
+        background: var(--theme-primary) !important;
+        border-right: none;
+        padding: 15px 15px 15px 15px;
+        color: #fff !important;
+        margin-bottom: 1rem;
+        border-right: none !important;
+    }
+    .banner-caption h1{
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .textile-processing .nav-pills {
+        justify-content: start !important;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+    .textile-processing .nav-pills img{
+        display: none;
+    }
+    #world_map{
+        width: 100%!important;
+    }
+}
+@media (max-width: 767.98px) {
+    .top-traded-markets button {
+        text-align: left;
+        font-size: 20px;
+        border-radius: 13px 13px 13px 13px !important;
+        background: var(--theme-primary) !important;
+        border-right: none;
+        padding: 15px 15px 15px 15px;
+        color: #fff !important;
+        margin-bottom: 1rem;
+        border-right: none !important;
+    }
+    .blog-item:hover .blog-inner{
+        justify-content: flex-start;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    .pdt-cat-home{
+        display: inline-block;
+    }
+    .our-pdt-cat-home{
+        text-align: center;
+    }
+    .aboutus{
+        display: none;
+    }
+    #about-img{
+        width: 100%!important;
+    }
+    .pdt-infoo, .pdt-info{
+        padding: 30px;
+    }
+    .swiper-slide .swiper-slide--inner {
+        display: block;
+        text-align: center;
+    }
+    .testimonial-inner .testimonial-heading{
+        font-size: 2rem;
+    }
+    .which-trader-will .nav-tabs .nav-link{
+        font-size: 16px;
+    }
+    .which-trader-will .nav-tabs .nav-link.active{
+        font-size: 16px;
+    }
+    .textile-processing .img-boxx{
+        padding: 15px 30px;
+    }
+}

@@ -1,0 +1,18 @@
+<?php 
+if(isset($_POST['submit_button'])){
+    $email_to = "akkushwaha018@gmail.com"; // this is your Email address
+    $from = $_POST['email_id'];
+    $name = $_POST['your_name'];
+    $mobile = $_POST['mobile_number'];
+    $customer_query = $_POST['customer_query'];
+
+    $subject = "Contact Us";
+    $message = "Name:- ". $name . "\n\n" . "Email:- ". $from. "\n\n" . "Mobile Number:- " . $mobile. "\n\n". "Query:- ".$_POST['customer_query'];
+
+    $headers = "From:" . $from;
+    $headers2 = "From:" . $email_to;
+    mail($email_to,$subject,$message,$headers);
+    echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
+    // header('Location: thank-you-jammu.html');
+    }
+?>
