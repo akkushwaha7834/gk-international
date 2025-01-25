@@ -552,6 +552,7 @@ section.mission_visionn {
 .text-process li{
 /*    list-style: circle;*/
     font-size: 1.1rem;
+    line-height: 2rem;
 }
 .blog-item {
     margin-bottom: 30px;
