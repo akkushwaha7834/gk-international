@@ -348,7 +348,8 @@ section.mission_visionn {
     color: var(--theme-primary);
 }
 .tabs-setup-row {
-    background: radial-gradient(#00000000, var(--theme-primary));
+/*    background: radial-gradient(#00000000, var(--theme-primary));*/
+    background: radial-gradient(var(--theme-secondary), #00000047);
     padding: 30px;
     border-radius: 20px;
      margin: 0;
