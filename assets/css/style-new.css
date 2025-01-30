@@ -551,7 +551,8 @@ section.mission_visionn {
 /*    padding-left: 20px;*/
 }
 .text-process li{
-/*    list-style: circle;*/
+    display: flex;
+    gap: 5px;
     font-size: 1.1rem;
     line-height: 2rem;
 }
@@ -731,6 +732,8 @@ section.mission_visionn {
     padding-left: 110px;
 }
 .pad-left li{
+    display: flex;
+    gap: 5px;
     font-size: 1.1rem;
 }
 .whatsapp-float {
