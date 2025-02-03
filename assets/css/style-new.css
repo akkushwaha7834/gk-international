@@ -820,3 +820,12 @@ section.mission_visionn {
 .pad-cat-home{
     padding: 20px ;
 }
+.ul_fifty {
+    width: 50%;
+/*    float: left;*/
+}
+.ul-fifty li
+{
+    display: flex;
+    gap: 5px;
+}
