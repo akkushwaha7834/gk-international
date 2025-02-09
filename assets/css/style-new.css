@@ -674,13 +674,17 @@ section.mission_visionn {
 .top-traded-markets button.active {
     font-size: 28px;
     border-radius: 50px !important;
-    background: var(--theme-black) !important;
-    color: #fff;
+    background: #fff !important;
+    color: #000 !important;
     border-right: 2px solid #808080 !important;
     border-width: 0px 2px 0px 0px !important;
     padding: 15px 20px 15px 50px;
     font-weight: 700;
     width: 100%;
+}
+.top-traded-markets button.active i{
+    background: var(--theme-primary) !important;
+    color: #fff !important;
 }
 .tabs-sec-two .tab-btns li i, .tabs-sec-two .mobile-btn button i {
     display: inline-block;

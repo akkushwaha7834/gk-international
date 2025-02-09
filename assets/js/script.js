@@ -2,7 +2,7 @@
   "use strict";
   //
   var i = 0;
-  var txt = "Gauravi International: Your Global Textile Partner";
+  var txt = "GK International: From India to the World: Quality Paper Bags";
   var speed = 50;
 
   function typeWriter() {
