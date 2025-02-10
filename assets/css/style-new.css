@@ -772,8 +772,8 @@ section.mission_visionn {
     text-align: center;
 }
 .which-trader-will .nav-tabs .nav-link.active {
-    background: var(--theme-black);
-    border: 1px solid var(--theme-black);
+    background: var(--theme-primary);
+    border: 1px solid var(--theme-primary);
     color: var(--theme-white);
     font-size: 20px;
     font-weight: 600;
@@ -799,7 +799,7 @@ section.mission_visionn {
     padding: 0;
 }
 .mission_visionn .tab-content>.active{
-    background: var(--theme-black);
+    background: var(--theme-primary);
     padding-top: 10px;
 }
 .our-team .pic img{
@@ -822,7 +822,8 @@ section.mission_visionn {
     height: 100%;
 }
 .pad-cat-home{
-    padding: 20px ;
+    padding: 10px 0 0 ;
+    background-image: linear-gradient(to right, var(--theme-secondary), var(--theme-secondary)) !important;
 }
 .ul_fifty {
     width: 50%;
